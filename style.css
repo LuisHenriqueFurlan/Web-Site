@@ -429,5 +429,35 @@ iframe {
 
 
 
+footer{
+    background-color: black;
+    height: 30vh;
+}
+
+.div-container {
+    
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    width: 75%;
+    height: 100%;
+    margin-left: 250px;
+    
+}
+
+.text-footer {
+    color: aliceblue;
+
+}
+
+
+
+
+
+
+
+
+
 
 
