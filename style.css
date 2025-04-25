@@ -17,7 +17,7 @@ html{
 }
 
 
-
+/*menu cabeçalho*/
 
 .header{
     position: fixed;
@@ -61,6 +61,8 @@ html{
     
 }
 
+/*seçao da landing page*/
+
 .home{
     height: 100vh;
     background: url(assets/img.jpg) no-repeat;
@@ -74,6 +76,8 @@ html{
 
 
 }
+
+/*container do conteudo da landing page*/
 
 .home-content{
      
@@ -98,6 +102,8 @@ html{
 
 }
 
+/*container dos botoes de whatsapp e insta*/
+
 
 .home-content .btn-box{
     display: flex;
@@ -107,6 +113,8 @@ html{
     padding-right: 20px;
     
 }
+
+/*botoes contate e saiba mais*/
 
 .btn-box a {
     position: relative;
@@ -126,6 +134,8 @@ html{
 
 
 }
+
+/*icones de instagram e whatsapp*/
 
 .home-sci{
     position: absolute;
@@ -154,7 +164,7 @@ html{
 
 
 
-/*section 2-- contato--*/
+/*section 2 contatos*/
 
 
 
@@ -164,6 +174,8 @@ html{
     margin: 0;
     box-sizing: border-box;
 }
+
+/*pagina 2*/
 
 .page-2{
     display: flex;
@@ -178,6 +190,8 @@ html{
     
 }
 
+/*texto da pagina 2*/
+
 .main-text{
     padding-right: 300px;
     justify-content: left;
@@ -185,6 +199,8 @@ html{
     font-size: 50px;
 }
 
+
+/*container dos contatos*/
 
 #sec-2 {
     display: flex;
@@ -199,6 +215,8 @@ html{
     border-radius: 10px;
     
 }
+
+/*titulo do container (contato)*/
  
 .contact{
     padding-right: 20px;
@@ -208,6 +226,8 @@ html{
 
 }
 
+/*formulario*/
+
 #sec-2 form{
     display: flex;
     flex-direction: column;
@@ -215,12 +235,17 @@ html{
     height: 100%;
 }
 
+
+/*texto acima das caixas de texto*/
+
 form>label{
     font-weight: 500;
     margin-bottom: 5px;
     
     
 }
+
+/*caixas de resposta email e nome*/
 
 form>input{
     padding-bottom: 15px;
@@ -236,12 +261,16 @@ form>input{
   
 }
 
+/*efeito das caixas de resposta*/
+
 
 form input:focus{
     border-radius: 10px;
     
 
 }
+
+/* area de digite sua mensagem*/
 
 form>textarea{
     padding: 30px;
@@ -261,6 +290,8 @@ form>textarea:focus{
     border-radius: 10px;
     
 }
+
+/*area do botao*/
 
 form>button{
     padding: 15px;
@@ -282,6 +313,8 @@ form>button:hover{
 }
 
 /*seçao 3*/
+
+
 #section-3{
     height: 100vh;
     width: 100%;
@@ -289,7 +322,7 @@ form>button:hover{
     
 }
 
-
+/*container dos textos*/
 
 .container-3 {
      width: 100%;
@@ -304,6 +337,7 @@ form>button:hover{
 
 }
 
+/*texto fora da caixa amarela*/
 
 .element-1 {
     background-color: transparent;
@@ -333,7 +367,7 @@ form>button:hover{
 }
 
 
-
+/*texto da caixa amarela*/
 
 
 .element-2 {
@@ -366,6 +400,8 @@ form>button:hover{
 
 }
 
+/*botao de agende ja*/
+
 .btn-3{
     width: 200px;
     height: 45px;
@@ -388,6 +424,7 @@ form>button:hover{
     transition: all 0.5s;
 }
 
+/*seçao 4 - localizaçao*/
 
 #sec-4 {
     height: 100vh;
@@ -404,7 +441,7 @@ form>button:hover{
 
 }
 
-
+/*container somente texto da pagina de localizaçao*/
 
 #sec-4 > .container-maps h1 {
     font-size: 45px;
@@ -421,18 +458,23 @@ form>button:hover{
     padding-top: 20px;
 }
 
+/*personaliaçao do mapa*/
+
 iframe {
     border-radius: 10px;
     filter: invert(100%);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+/*seçao do footer do site*/
 
 
 footer{
     background-color: black;
     height: 30vh;
 }
+
+/*container do footer*/
 
 .div-container {
     
@@ -446,12 +488,232 @@ footer{
     
 }
 
+/*cor do texto do footer*/
+
 .text-footer {
     color: aliceblue;
 
 }
 
 
+@media screen and (max-width: 1024px){
+
+    /*cabeçalho*/
+
+    .navbar{
+        display: none;
+
+
+    }
+
+    .logo {
+        padding-left: 50px;
+
+    }
+    
+
+
+    /*landing page*/
+
+    .home {
+        background-image: none; 
+        
+        
+
+    }
+
+    .home h1{
+        
+        margin-bottom: 0px;
+        height: 200px;
+        padding-top: 60px;
+        
+        
+    }
+
+    .home h3{
+         font-size: 25px;
+
+    }
+
+
+    /*seçao da homme page*/
+
+    .home{
+        flex-direction: column;
+    }
+
+    /*seçao dos contatos*/
+
+    .page-2 {
+        flex-direction: column;
+        padding-left: 200px;
+        height: 120vh;
+        
+
+    }
+
+
+
+    .main-text {
+        font-size: 35px;
+        margin-bottom: 120px;
+        padding-left: 300px;
+        margin-top: 15px;
+        margin-bottom: 35px;
+
+
+        
+    }
+
+    
+
+    #sec-2 {
+        width: 300px;
+        padding-bottom: 100px;
+        m
+        
+    }
+
+
+
+    /*seçao sobre mim*/
+
+    #section-3{
+        height: 100vh;
+        
+    }
+
+    .container-3 {
+        
+        padding-left: 20px;
+        width: 300px;
+        height: 200px;
+        width: 100%;
+        height: 100%;
+        padding-right: 50px;
+        padding-top: 23px;
+        
+
+        
+
+ 
+    }
+
+
+    .element-2 {
+        
+        margin-top: 20px;
+        height: 600px;
+        
+    }
+
+    .who{
+        
+        padding-top: 100px;
+        
+    }
+
+    .container-3 h1{
+
+        font-size: 30px;
+        
+    }
+
+
+
+
+
+
+
+    .container-3 h2{
+        font-size: 15px;
+        margin-top: 10px;
+
+
+
+
+    }
+
+
+    button {
+        padding-right: 10px;
+        
+          
+    }
+
+
+
+    button > a {
+        margin-left: 15px;
+        
+        
+        
+    }
+
+
+
+    
+
+    /*SEÇAO LOCALIZAÇAO*/
+
+    iframe {
+        width: 300px;
+        height: 250px;
+    }
+
+    .container-maps>h1 {
+        padding-left: 50px;
+    }
+
+    .container-maps>p {
+        padding-left: 15px;
+
+    }
+
+    
+    #sec-4 {
+        flex-direction: column;
+    }
+
+    /*FOOTER*/
+
+
+
+    footer{
+        height: 25vh;
+
+
+
+    }
+
+    .div-container{
+        
+        margin-left: 0px;
+        width: 100%;
+        gap: 20px;
+        
+
+    }
+
+    
+    .div-container img{
+        width: 150px;
+        height: 150px;
+        margin-left: 10px;
+    }
+
+
+
+    
+    
+
+
+
+}
+
+
+    
 
 
 
