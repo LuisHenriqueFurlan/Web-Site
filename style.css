@@ -532,7 +532,9 @@ footer{
     margin-top: 40px;
 }
 
-@media screen and (max-width: 1440px){
+
+
+@media screen and (min-width: 568px) and (max-width: 1365px){
     /*resoluçao notebooks*/
     
     
@@ -794,13 +796,21 @@ footer{
         
     
     
-    } 
     
+    } 
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 567px){
-/*formato celulares*/
-
+    /*SMARTPHONES*/
 
     /*cabeçalho*/
 
@@ -821,22 +831,11 @@ footer{
 
     .home {
         background-image: url(assets/img.jpg) ; 
-        background-position: -550px;
-        flex-direction: column;
-        width: 567px;
-        height: 100vh;
+        background-position: -450px;
+        
+        
+        
 
-    }
-
-    .home-content {
-        
-        align-content: center;
-        justify-content: center;
-        justify-items: center;
-        width: 300px;
-        margin-left: 350px;
-        
-        
     }
 
     .home h1{
@@ -857,7 +856,6 @@ footer{
 
     .home-content p{
         color: rgb(240, 240, 240);
-        
     }
 
     .btn-box a{
@@ -883,13 +881,11 @@ footer{
     }
 
     .container-products {
-        flex-direction: column;
-        
+        flex-direction: column; 
     }
 
     .card-product {
      width: 350px;
-     
     }
 
     /*seçao especialidades*/
@@ -903,7 +899,6 @@ footer{
     .container-cards {
         flex-direction: column;
         gap: 100px;
-        margin-left: 23px;
         
     }
 
@@ -954,14 +949,6 @@ footer{
        
     }
 
-    .content-about-1 {
-        
-        width: 400px;
-        margin-right: 300px;
-        padding-right: 20px;
-        
-    }
-
     .container-about {
         flex-direction: column;
         text-align: center;
@@ -974,21 +961,19 @@ footer{
     }
 
     .content-about {
-        
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
         width: 300px;
         padding-bottom: 30px;
         height: 450px;
         padding-right: ;
-        
-        margin-right: 1000px;
         
     }
 
     .content-about img {
         height: 100%;
         width: 100%;
-        background-color: black;
-        
     }
 
     .content-about h1 {
@@ -1012,7 +997,7 @@ footer{
     }
 
     .container-maps>h1 {
-        align-items: center;
+        padding-left: 50px;
     }
 
     .container-maps>p {
@@ -1034,9 +1019,6 @@ footer{
 
 }
 
-
-
-
 .footer-content {
     
 }
@@ -1045,13 +1027,6 @@ footer{
 
 }
 
-
-
-
-
-
-
-
-
+arquivo css do notebook
 
 
