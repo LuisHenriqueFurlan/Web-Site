@@ -162,267 +162,286 @@ html{
 
 }
 
+/*seçao produtos*/
+
+#products{
+    background: url(assets/gradiente2.jpeg);
+    height: 60vh;
+    background-size: cover;
+}
+
+.container-products{
+    display: flex;
+    
+    height: 100%;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+.card-product{
+    border-radius: 20px;
+    width: 400px;
+    text-align: center;
+    height: 500px;
+    padding-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    background-color: rgb(252, 252, 252);
+    
+
+}
+
+.card-product button {
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 35px;
+    width: 300px;
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    
+}
+
+.card-product h3{
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.card-product ul{
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+
+.card-product ul li {
+    padding-top: 5px;
+}
+
+
 
 
 /*section 2 contatos*/
 
 
 
-*{
-    font-family: Poppins;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+
+
+/*contatos*/
+
+#contacts-sec {
+    height: 80vh;
+    width: 100%;
+     
 }
 
-/*pagina 2*/
-
-.page-2{
+.contact-container {
+    
+    height: 100%;
+    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: right;
-    height: 100vh;
-    padding-right: 200px;
-    background: url(assets/img.jpg);
-    
-    
-    
-    
-}
-
-/*texto da pagina 2*/
-
-.main-text{
-    padding-right: 300px;
-    justify-content: left;
-    flex-direction: row;
-    font-size: 50px;
-}
-
-
-/*container dos contatos*/
-
-#sec-2 {
-    display: flex;
+    gap: 300px;
+    justify-items: center;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    padding: 30px 45px;
-    background-color: rgb(255, 255, 255);
-    width: 400px;
-    height: 500px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 10px;
+    text-align: center;
     
 }
 
-/*titulo do container (contato)*/
- 
-.contact{
-    padding-right: 20px;
-    font-weight: 500;
-    margin-top: 5px;
-    padding-bottom: 10px;
-
-}
-
-/*formulario*/
-
-#sec-2 form{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-}
-
-
-/*texto acima das caixas de texto*/
-
-form>label{
-    font-weight: 500;
-    margin-bottom: 5px;
+.card-content {
     
-    
-}
-
-/*caixas de resposta email e nome*/
-
-form>input{
-    padding-bottom: 15px;
-    outline: none;
-    margin-bottom: 40px;
-    font-size: 15px;
-    transition: all 0.5s;
-    border: 0;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    border-radius: 10px;
-    
-    
-  
-}
-
-/*efeito das caixas de resposta*/
-
-
-form input:focus{
-    border-radius: 10px;
-    
-
-}
-
-/* area de digite sua mensagem*/
-
-form>textarea{
-    padding: 30px;
-    outline: none;
-    border: 0;
-    font-size: 15px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    transition: all 0.5s;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    
-
-}
-
-
-form>textarea:focus{
-    border-radius: 10px;
-    
-}
-
-/*area do botao*/
-
-form>button{
-    padding: 15px;
-    cursor: pointer;
-    font-size: 15px;
-    background: transparent;
-    border: 2px solid ;
     border-radius: 20px;
-    transition: all 0.5s;
-    margin-bottom: 10px;
+    height: 560px;
+    width: 700px;
+    
     
 }
 
-form>button:hover{
-    background: rgb(236, 235, 235);
-    border-radius: 10px;
-    color: black;
+.box-1 {
+    align-items: center;
+    margin-top: 150px;
+    font-size: 40px;
+    
+}
+
+.card-content form {
+    
+    margin-top: 20px;
+    height: 540px;
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+.tittle-box {
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 400px;
+    
+}
+
+.card-content label {
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.card-content input {
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
+
+.card-content .h3-text {
+    display: flex;
+    font-weight: 500;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.card-content textarea {
+    width: 350px;
+    margin-left: 2px;
+    height: 150px;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.card-content button {
+    width: 350px;
+    border-radius: 20px;
+    height: 40px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 10px;
+}
+
+
+
+
 
 /*seçao 3*/
 
+#section-3 {
+    height: 60vh;
+    
+    
+}
 
-#section-3{
-    height: 100vh;
+.container-cards{
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
     width: 100%;
-    background-color: rgb(207, 206, 206);
-    
-}
-
-/*container dos textos*/
-
-.container-3 {
-     width: 100%;
-     height: 100%;
-     display: flex;
-     padding-top: 100px;
-     padding-left: 400px;
-     
-     
-     
-     
-
-}
-
-/*texto fora da caixa amarela*/
-
-.element-1 {
-    background-color: transparent;
-    width: 400px;
-    height: 500px;
-    margin-right: 100px;
-    justify-content: center;
-    align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-top: 80px;
-    margin-right: 150px;
-    
-    
-
-}
-
-.element-1 h1{
-    font-size: 35px;
-    font-weight: 700;
-}
-
-.element-1 h2 {
-    font-size: 17px;
-    font-weight: 500;
-    margin-top: 20px;
-}
-
-
-/*texto da caixa amarela*/
-
-
-.element-2 {
-    background-color: rgb(248, 247, 154);
-    width: 700px;
-    height: 550px;
-    padding-left: 40px;
-    padding-right: 40px;
     padding-top: 20px;
-    border: 2px  transparent  solid;
-    border-radius: 10px;
+
+}
+
+.cards-3{
+    
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
     justify-content: center;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    margin-top: 70px;
+    justify-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding-top: 20px;
+     
 }
 
-.element-2 h1 {
-    font-size: 35px;
-    font-weight: 700;
+.cards-3 h2{
+    padding-top: 20px;
+}
+
+.cards-3 p{
+    padding-top: 20px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px ;
+}
+
+
+
+/*sobre mim*/
+
+#about-me {
+    height: 60vh;
+    background: url(assets/gradiente2.jpeg);
+    background-size: cover;
+    
+    
+}
+
+.container-about{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-left: 100px;
+    
     
 }
 
 
+.content-about{
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    
+    width: 100%px;
+    border-radius: 30px;
 
-.element-2 h2 {
+}
+
+
+.container-about h3 {
+    font-size: 15px;
     font-weight: 500;
-    font-size: 23px;
-    margin-top: 20px;
-
-}
-
-/*botao de agende ja*/
-
-.btn-3{
-    width: 200px;
-    height: 45px;
-    border-radius: 15px;
-    margin-left: 60px;
-    margin-top: 30px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding-top: 30px;
+    
     
 }
 
-.btn-3>a {
-    text-decoration: none;
-    font-size: 18px;
-    color: black;
-
+.container-about h1{
+    padding-top: 100px;
 }
 
-.btn-3:hover {
-    background-color: rgb(216, 245, 159);
-    transition: all 0.5s;
+
+
+.container-about img {
+    
+    height: 500px;
+    
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: black;
+    border-radius: 20px;
+    
+    
 }
+
 
 /*seçao 4 - localizaçao*/
 
@@ -478,25 +497,43 @@ footer{
 
 .div-container {
     
-    justify-content: space-between;
+    justify-content: center;
     justify-items: center;
     align-items: center;
     display: flex;
-    width: 75%;
+    width: 100%;
     height: 100%;
-    margin-left: 250px;
+    gap: 500px;
     
 }
 
 /*cor do texto do footer*/
 
-.text-footer {
-    color: aliceblue;
+.footer-content{
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.footer-content  img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
 
 }
 
+.footer-content p{
+    color: white;
+    margin-top: 40px;
+}
 
-@media screen and (max-width: 1024px){
+
+@media screen and (max-width: 390px){
 
     /*cabeçalho*/
 
@@ -516,7 +553,9 @@ footer{
     /*landing page*/
 
     .home {
-        background-image: none; 
+        background-image: url(assets/img.jpg) ; 
+        background-position: -450px;
+        
         
         
 
@@ -527,130 +566,148 @@ footer{
         margin-bottom: 0px;
         height: 200px;
         padding-top: 60px;
+        color: white;
         
         
     }
 
     .home h3{
          font-size: 25px;
+         color: white;
 
     }
+
+    .home-content p{
+        color: rgb(240, 240, 240);
+    }
+
+    .btn-box a{
+        border-color: rgb(204, 203, 203);
+        color: rgb(230, 227, 227);
+    }
+    
+    .home-sci a {
+        border-color: white;
+    }
+
+    .home-sci a i {
+        color: white;
+        border-color: white;
+    }
+
+
+    /*seçao produtos*/
+
+    #products {
+        height: 200vh;
+        
+    }
+
+    .container-products {
+        flex-direction: column; 
+    }
+
+    .card-product {
+     width: 350px;
+    }
+
+    /*seçao especialidades*/
+
+    #section-3{
+        height: 250vh;
+        padding-left: 40px;
+        background-color: ;
+    }
+
+    .container-cards {
+        flex-direction: column;
+        gap: 100px;
+        
+    }
+
+
 
 
     /*seçao da homme page*/
 
     .home{
         flex-direction: column;
+
     }
 
     /*seçao dos contatos*/
 
-    .page-2 {
-        flex-direction: column;
-        padding-left: 200px;
-        height: 120vh;
-        
+ #contacts-sec {
+    height: 180vh;
+    margin-top: 200px;
+    
+    
+ }
 
-    }
+ .contact-container {
+    flex-direction: column;
+    gap: 20px;
+    
+    
+    
+    
+    
+ }
+
+ .card-content {
+    width: 390px;
+    padding-right: 10px;
+    
+    
+ }
 
 
-
-    .main-text {
-        font-size: 35px;
-        margin-bottom: 120px;
-        padding-left: 300px;
-        margin-top: 15px;
-        margin-bottom: 35px;
-
-
-        
-    }
 
     
 
-    #sec-2 {
-        width: 300px;
-        padding-bottom: 100px;
-        m
-        
-    }
-
-
-
     /*seçao sobre mim*/
 
-    #section-3{
-        height: 100vh;
-        
+    #about-me {
+        height: 120vh;
+       
     }
 
-    .container-3 {
+    .container-about {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        padding-left: 45px;
         
-        padding-left: 20px;
+        
+        
+
+    }
+
+    .content-about {
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
         width: 300px;
-        height: 200px;
-        width: 100%;
+        padding-bottom: 30px;
+        height: 450px;
+        padding-right: ;
+        
+    }
+
+    .content-about img {
         height: 100%;
-        padding-right: 50px;
-        padding-top: 23px;
-        
-
-        
-
- 
+        width: 100%;
     }
 
-
-    .element-2 {
+    .content-about h1 {
+        justify-content: center;
+        padding-top: 20px;
         
-        margin-top: 20px;
-        height: 600px;
-        
-    }
-
-    .who{
-        
-        padding-top: 100px;
-        
-    }
-
-    .container-3 h1{
-
-        font-size: 30px;
         
     }
 
 
-
-
-
-
-
-    .container-3 h2{
-        font-size: 15px;
-        margin-top: 10px;
-
-
-
-
-    }
-
-
-    button {
-        padding-right: 10px;
-        
-          
-    }
-
-
-
-    button > a {
-        margin-left: 15px;
-        
-        
-        
-    }
-
+    
 
 
     
@@ -678,36 +735,17 @@ footer{
 
     /*FOOTER*/
 
+.div-container {
+    justify-items: center;
+    justify-content: center;
+    gap: 0px;
 
+}
 
-    footer{
-        height: 25vh;
-
-
-
-    }
-
-    .div-container{
-        
-        margin-left: 0px;
-        width: 100%;
-        gap: 20px;
-        
-
-    }
-
+.footer-content {
     
-    .div-container img{
-        width: 150px;
-        height: 150px;
-        margin-left: 10px;
-    }
-
-
-
+}
     
-    
-
 
 
 }
