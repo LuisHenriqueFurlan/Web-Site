@@ -532,8 +532,275 @@ footer{
     margin-top: 40px;
 }
 
+@media screen and (max-width: 1440px){
+    /*resoluçao notebooks*/
+    
+    
+    
+        /*cabeçalho*/
+    
+        
+    
+        .logo {
+            padding-left: 50px;
+    
+        }
+        
+    
+    
+        /*landing page*/
+    
+        .home {
+            background-image: url(assets/img.jpg) ; 
+            width: 100%;
+            flex-direction: row;
+             
+    
+        }
+    
+        .home h1{
+            
+            margin-bottom: 0px;
+            height: 200px;
+            padding-top: 60px;
+            color: rgb(2, 2, 2);
+    
+            
+            
+        }
+    
+        .home h3{
+             font-size: 25px;
+             color: rgb(5, 5, 5);
+    
+        }
+    
+        .home-content {
+            
+            margin-right: 600px;
+            margin-top: 150px;
+            text-align: center;
+            width: 90%;
+            
+        }
+    
+        .home-content p{
+            color: rgb(0, 0, 0);
+            
+        }
+    
+        .btn-box a{
+            border-color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+        }
+    
+        
+        
+        .home-sci a {
+            border-color: rgb(3, 3, 3);
+            margin-bottom: 150px;
+            margin-right: 50px
+        }
+    
+        .home-sci a i {
+            color: rgb(0, 0, 0);
+            border-color: rgb(5, 0, 0);
+        }
+    
+    
+        /*seçao produtos*/
+    
+        #products {
+            height: 80vh;
+            
+            
+            
+            
+        }
+    
+        .container-products {
+            flex-direction: row;
+            
+            
+            
+         
+        }
+    
+        .card-product {
+            width: 350px;
+            margin-top: 300px;
+            
+        }
+    
+        /*seçao especialidades*/
+    
+        #section-3{
+            height: 100vh;
+            
+            
+    
+    
+    
+        }
+    
+    
+    
+        .container-cards {
+            flex-direction: row;
+            gap: 100px;
+            
+            
+            
+        }
+    
+    
+    
+    
+        /*seçao da homme page*/
+    
+        .home{
+            flex-direction: column;
+    
+        }
+    
+        /*seçao dos contatos*/
+    
+     #contacts-sec {
+        height: 100vh;
+        margin-top: 200px;
+        
+        
+     }
+    
+     .contact-container {
+        flex-direction: row;
+        gap: 20px;
+        gap: 200px;
+        
+        
+        
+        
+        
+     }
+    
+     .card-content {
+        width: 390px;
+        padding-right: 10px;
+        
+        
+     }
+    
+    
+    
+        
+    
+        /*seçao sobre mim*/
+    
+        #about-me {
+            height: 100vh;
+           
+        }
+    
+        .container-about {
+            flex-direction: row;
+            justify-content: center;
+            padding-left: 45px;
+            background-color: re;
+            gap: 0px;
+            
+    
+            
+            
+    
+        }
+    
+        .content-about {
+            width: 600px;
+            height: 450px;
+            background-color: blu;
+            margin-right: 200px;
+           
+            margin-top: 30px;
+            
+            
+        }
+    
+        .content-about-1 {
+            
+            width: 800px;
+            height: 400px;
+            padding-left: 20px;
+            margin-right: 200px;
+            padding-top: 20px;
+            margin-top: 100px;
+            font-size: x-large;
+        }
+    
+        .content-about img {
+            height: 550px;
+            width: 400px;
+            margin-left: 100px;
+            margin-top: 30px;
+        }
+    
+        .content-about h1 {
+            justify-content: center;
+            padding-top: 20px;
+            
+            
+        }
+    
+    
+        
+    
+    
+        
+    
+        /*SEÇAO LOCALIZAÇAO*/
+    
+        iframe {
+            width: 800px;
+            height: 400px;
+        }
+    
+        .container-maps>h1 {
+            padding-left: ;
+            text-align: center;
+        }
+    
+        .container-maps>p {
+            padding-left: 15px;
+            align-items: center;
+    
+        }
+    
+        
+        #sec-4 {
+            flex-direction: column;
+        }
+    
+        /*FOOTER*/
+    
+    .div-container {
+        justify-items: center;
+        justify-content: center;
+        gap: 200pxpx;
+    
+    }
+    
+    .footer-content {
+        
+    }
+        
+    
+    
+    } 
+    
 
-@media screen and (max-width: 390px){
+
+@media screen and (max-width: 567px){
+/*formato celulares*/
+
 
     /*cabeçalho*/
 
@@ -554,11 +821,22 @@ footer{
 
     .home {
         background-image: url(assets/img.jpg) ; 
-        background-position: -450px;
-        
-        
-        
+        background-position: -550px;
+        flex-direction: column;
+        width: 567px;
+        height: 100vh;
 
+    }
+
+    .home-content {
+        
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        width: 300px;
+        margin-left: 350px;
+        
+        
     }
 
     .home h1{
@@ -579,6 +857,7 @@ footer{
 
     .home-content p{
         color: rgb(240, 240, 240);
+        
     }
 
     .btn-box a{
@@ -604,11 +883,13 @@ footer{
     }
 
     .container-products {
-        flex-direction: column; 
+        flex-direction: column;
+        
     }
 
     .card-product {
      width: 350px;
+     
     }
 
     /*seçao especialidades*/
@@ -622,6 +903,7 @@ footer{
     .container-cards {
         flex-direction: column;
         gap: 100px;
+        margin-left: 23px;
         
     }
 
@@ -672,6 +954,14 @@ footer{
        
     }
 
+    .content-about-1 {
+        
+        width: 400px;
+        margin-right: 300px;
+        padding-right: 20px;
+        
+    }
+
     .container-about {
         flex-direction: column;
         text-align: center;
@@ -684,19 +974,21 @@ footer{
     }
 
     .content-about {
-        justify-content: center;
-        align-items: center;
-        justify-items: center;
+        
         width: 300px;
         padding-bottom: 30px;
         height: 450px;
         padding-right: ;
+        
+        margin-right: 1000px;
         
     }
 
     .content-about img {
         height: 100%;
         width: 100%;
+        background-color: black;
+        
     }
 
     .content-about h1 {
@@ -720,7 +1012,7 @@ footer{
     }
 
     .container-maps>h1 {
-        padding-left: 50px;
+        align-items: center;
     }
 
     .container-maps>p {
@@ -742,6 +1034,9 @@ footer{
 
 }
 
+
+
+
 .footer-content {
     
 }
@@ -751,7 +1046,6 @@ footer{
 }
 
 
-    
 
 
 
