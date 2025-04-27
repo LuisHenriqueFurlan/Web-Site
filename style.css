@@ -141,8 +141,10 @@ html{
     position: absolute;
     bottom: 40PX;
     width: 170PX;
-    display: flex;
+    display: inline;
     justify-content: space-between;
+    padding: 0;
+    margin: 0;
 
 }
 .home-sci a{
@@ -871,6 +873,8 @@ footer{
         color: white;
         border-color: white;
     }
+
+    
 
 
     /*seçao produtos*/
