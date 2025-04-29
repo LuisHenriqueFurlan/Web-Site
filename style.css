@@ -375,6 +375,15 @@ html{
     
 }
 
+.cards-3 svg {
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+
+
 .cards-3{
     
     width: 300px;
@@ -683,6 +692,15 @@ footer{
         font-size: 25px;
     }
 
+    .cards-3 svg {
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+    }
+
+
     .container-products {
         flex-direction: row; 
         text-align: center;
@@ -933,8 +951,6 @@ footer{
 } 
 
 
-
-
 @media screen and (min-width: 600px) and (max-width: 1023px) {
     .header {
         position: fixed;
@@ -1040,6 +1056,15 @@ footer{
         height: 100%;
           
     }
+
+    .cards-3 svg {
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+    }
+
 
     .theme-1 {
         padding-top: 20px;
@@ -1406,6 +1431,15 @@ footer{
         
     }
 
+    .cards-3 svg {
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+    }
+
+
     .container-products {
         flex-direction: column; 
         text-align: center;
@@ -1631,6 +1665,370 @@ footer{
 
 }
 
+@media screen and (max-width: 900px) and (orientation: landscape){
+        /*SMARTPHONES DEITADOS*/
+    
+        /*cabeçalho*/
+    
+    
+        .header {
+            position: static;
+            background-color: transparent;
+    
+                
+        }
+    
+        .navbar{
+            display: none;
+    
+    
+        }
+    
+        .logo {
+            padding-left: 35%;
+    
+        }
+        
+    
+    
+        /*landing page*/
+    
+        .home {
+            background-image: url(assets/img.jpg) ; 
+            background-position: ;
+            height: 100%;
+            width: 100%;
+            
+            background-size: cover;
+            
+            
+    
+        }
+    
+        .home-container {
+            height: 100%;
+            width: 100%;
+            margin-right: 25%;
+            padding-left: 10px;
+            padding-bottom: 30px;
+            
+            
+        }
+    
+        .home h1{
+            
+            margin-bottom: 0px;
+            height: 200px;
+            padding-top: 60px;
+            color: white;
+            
+            
+        }
+    
+        .home h3{
+             font-size: 25px;
+             color: white;
+    
+        }
+    
+        .home-content p{
+            color: rgb(240, 240, 240);
+        }
+    
+        .home-content a {
+            margin-right: 20px;
+                     
+        }
+    
+        .btn-box {
+            width: 100%;
+            
+            
+        }
+    
+      
+    
+        .btn-box a{
+            border-color: rgb(204, 203, 203);
+            color: rgb(230, 227, 227);
+        }
+        
+        .home-sci a {
+            border-color: white;
+        }
+    
+        .home-sci a i {
+            color: white;
+            border-color: white;
+        }
+    
+        .home-sci {
+            width: 25%;
+            position: ;
+            
+        }
+    
+        
+    
+    
+        /*seçao produtos*/
+    
+        #products {
+            height: 200vh;
+            height: 100%;
+            
+        }
+    
+        .container-products {
+            flex-direction: row; 
+            text-align: center;
+            gap: 2%;
+            
+            
+        }
+    
+        .card-product {
+         width: 90%;
+         padding-right: 2%;
+         height: 25rem;    
+         text-align: center;
+         padding-left: 2%;
+         
+        
+        }
+    
+        /*seçao especialidades*/
+    
+        #section-3{
+            height: 40rem;
+            width: 100%;
+        }
+    
+        .container-cards {
+            flex-direction: row;
+            gap: 3%;
+            align-items: center;
+            width: 100%;
+            padding-top: 20%;
+            height: 20rem;
+            padding-right: 2%;
+            padding-left: 2%;
+           
+        }
+        
+        .cards-3 {
+            margin-top: 20%;
+        }
+
+        .cards-3 svg {
+            text-align: center;
+            justify-items: center;
+            justify-content: center;
+            align-items: center;
+            margin: 0%;
+        }
+    
+    
+        /*seçao da homme page*/
+    
+        .home{
+            flex-direction: column;
+    
+        }
+    
+        /*seçao dos contatos*/
+    
+     #contacts-sec {
+        height: 100%;
+        width: 100%;
+        
+        
+     }
+    
+     .contact-container {
+        flex-direction: column;
+        gap: 5%;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+     }
+    
+     .card-content:nth-child(1){
+        height: 20%;
+        
+     }
+    
+     .card-content:nth-child(1) h1 {
+        margin-top: 20%;
+        align-items: center;
+        margin-top: 2%;
+     }
+    
+     .card-content:nth-child(2) {
+        width: 70%;
+     
+     }
+
+     .card-content:nth-child(2) h1{
+        padding-left: 20%;
+     
+     }
+    
+     .card-content form {
+        width: 100%;
+        height: 100%;
+            
+     }
+    
+    
+     .card-content {
+        width: 100%;
+        
+            
+     }
+    
+        /*seçao sobre mim*/
+    
+        #about-me {
+            height: 100%;
+            width: 100%;
+           
+        }
+    
+        .container-about {
+            flex-direction:row;
+            text-align: center;
+            border-radius: 20px;
+            height: 100%;
+            width: 100%;
+            padding-right: 20%; 
+            padding-left: 10%; 
+            
+    
+        }
+    
+        .content-about {
+            justify-content: center;
+            align-items: center;
+            justify-items: center;
+            width: 120%;
+            padding-right: 5%;
+            border-radius: 20px;
+           
+         
+            
+        }
+    
+        .content-about:nth-of-type(1) {
+            padding-bottom: 80px;
+            
+        }
+    
+        .content-about img {
+            height: 100%;
+            width: 100%;
+    
+            
+        }
+    
+        .content-about h1 {
+            justify-content: center;
+            text-align: center;
+            padding-top: 3rem;
+            justify-items: center;
+            padding-top: 10px;
+            margin-top: 10px;
+            
+       
+        }
+
+        .content-about h3 {
+            font-size: 12 px;
+            
+        }
+    
+    
+        
+    
+    
+        
+    
+        /*SEÇAO LOCALIZAÇAO*/
+    
+        iframe {
+            width: 35rem;
+            height: 20rem;
+            
+            
+     }
+    
+    
+       #sec-4 {
+            height: 50rem;
+     } 
+    
+    
+        .container-maps {
+            flex-direction: column;
+            height:  50rem;
+            padding-top: 20px;
+            
+    
+    
+     }
+    
+     .div-map {
+        border-radius: 20px;
+        text-align: center;
+        padding-left: 10px ;
+        padding-right: 10px ;
+        margin-top: 30px;
+    
+     }
+     
+    
+        
+     
+    
+        /*FOOTER*/
+    
+    .foot {
+        height: 13rem;
+    }
+    
+    .div-container {
+    
+        height: 100%;
+        background-color: greenyello;
+        gap: 0%;
+        justify-content: space-between;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    
+    }
+    
+    .footer-content {
+       
+        text-align: center;
+        width: 10rem;
+        height: 10rem;
+        
+        
+    }
+    
+    .footer-content img {
+        width: 10rem;
+        height: 10rem;
+        
+    }
+    
+    
+        
+    
+    
+    }
 
 
 
