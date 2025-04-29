@@ -375,12 +375,17 @@ html{
     
 }
 
-.cards-3 svg {
-    text-align: center;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    margin: 0%;
+.icon {
+    
+    width: 5rem;
+    height: 5rem;
+   text-align: center;
+}
+
+.cards-3 i {
+    font-size: 3.5rem;
+    padding-top: 7px;
+    
 }
 
 
@@ -692,9 +697,17 @@ footer{
         font-size: 25px;
     }
 
-    .cards-3 svg {
+    .icon {
+    
+        width: 5rem;
+        height: 5rem;
+       text-align: center;
+    }
+    
+    .cards-3 i {
+        font-size: 3.5rem;
+        padding-top: 7px;
         
-        margin: 10%;
     }
 
 
@@ -949,6 +962,7 @@ footer{
 
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
+    /*TABLETS*/
     .header {
         position: fixed;
         background-color: transparent;
@@ -1054,11 +1068,18 @@ footer{
           
     }
 
-    .cards-3 svg {
-        
-        margin: 10%;
+    .icon {
+    
+        width: 5rem;
+        height: 5rem;
+       text-align: center;
     }
-
+    
+    .cards-3 i {
+        font-size: 3.5rem;
+        padding-top: 7px;
+        
+    }
 
     .theme-1 {
         padding-top: 20px;
@@ -1425,12 +1446,17 @@ footer{
         
     }
 
-    .cards-3 svg {
-        text-align: center;
-        justify-items: center;
-        justify-content: center;
-        align-items: center;
-        margin: 0%;
+    .icon {
+    
+        width: 5rem;
+        height: 5rem;
+       text-align: center;
+    }
+    
+    .cards-3 i {
+        font-size: 3.5rem;
+        padding-top: 7px;
+        
     }
 
 
@@ -1820,11 +1846,18 @@ footer{
             margin-top: 20%;
         }
 
-        .cards-3 svg {
-            
-            margin: 10%;
-        }
+        .icon {
     
+            width: 5rem;
+            height: 5rem;
+           text-align: center;
+        }
+        
+        .cards-3 i {
+            font-size: 3.5rem;
+            padding-top: 7px;
+            
+        }
     
         /*seçao da homme page*/
     
