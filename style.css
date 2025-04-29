@@ -723,6 +723,12 @@ footer{
       
     }
 
+    .cards-3 h2 {
+        background-color: aqua;
+        width: 100%;
+        text-align: center;
+    }
+
     .icon {
     
         width: 100%;
@@ -1111,6 +1117,12 @@ footer{
         height: 45rem;
         width: 100%;
       
+    }
+
+    .cards-3 h2 {
+        background-color: aqua;
+        width: 100%;
+        text-align: center;
     }
 
     .icon {
@@ -1516,6 +1528,12 @@ footer{
          
     }
 
+    .cards-3 h2 {
+        background-color: aqua;
+        width: 100%;
+        text-align: center;
+    }
+
 
     
 
@@ -1873,6 +1891,12 @@ footer{
             padding-right: 2%;
             padding-left: 2%;
            
+        }
+
+        .cards-3 h2 {
+            background-color: aqua;
+            width: 100%;
+            text-align: center;
         }
         
         .cards-3 {
