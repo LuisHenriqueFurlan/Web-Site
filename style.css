@@ -693,11 +693,8 @@ footer{
     }
 
     .cards-3 svg {
-        text-align: center;
-        justify-items: center;
-        justify-content: center;
-        align-items: center;
-        margin: 0%;
+        
+        margin: 10%;
     }
 
 
@@ -1058,11 +1055,8 @@ footer{
     }
 
     .cards-3 svg {
-        text-align: center;
-        justify-items: center;
-        justify-content: center;
-        align-items: center;
-        margin: 0%;
+        
+        margin: 10%;
     }
 
 
@@ -1461,6 +1455,12 @@ footer{
         width: 100%;
     }
 
+    .cards-3 svg {
+        
+        margin: 10%;
+    }
+
+
     .container-cards {
         flex-direction: column;
         gap: 3%;
@@ -1821,11 +1821,8 @@ footer{
         }
 
         .cards-3 svg {
-            text-align: center;
-            justify-items: center;
-            justify-content: center;
-            align-items: center;
-            margin: 0%;
+            
+            margin: 10%;
         }
     
     
