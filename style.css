@@ -403,6 +403,7 @@ html{
 
 .cards-3 h2{
     padding-top: 20px;
+    
 }
 
 .cards-3 p{
@@ -724,7 +725,7 @@ footer{
     }
 
     .cards-3 h2 {
-        background-color: aqua;
+        
         width: 100%;
         text-align: center;
     }
@@ -1120,7 +1121,7 @@ footer{
     }
 
     .cards-3 h2 {
-        background-color: aqua;
+        
         width: 100%;
         text-align: center;
     }
@@ -1529,7 +1530,7 @@ footer{
     }
 
     .cards-3 h2 {
-        background-color: aqua;
+        
         width: 100%;
         text-align: center;
     }
@@ -1894,7 +1895,7 @@ footer{
         }
 
         .cards-3 h2 {
-            background-color: aqua;
+            
             width: 100%;
             text-align: center;
         }
