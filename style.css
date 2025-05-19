@@ -1160,7 +1160,7 @@ footer{
     }
 
     .card-product button {
-        width: 100%;
+        width: 90%;
         align-items: center;
     }
 
@@ -1573,7 +1573,7 @@ footer{
 
 
     .card-product {
-     width: 100%;
+     width: 90%;
      text-align: center;
      
      
@@ -1581,7 +1581,8 @@ footer{
 
     .card-product button {
         
-        width: 100%;
+        width: 90%;
+
     }
 
     /*seçao especialidades*/
@@ -1650,11 +1651,7 @@ footer{
     /*seçao dos contatos*/
 
  #contacts-sec {
-    height: 100%;
-    width: 100%;
-    
-    
-    
+    display: none;
     
  }
 
@@ -1850,6 +1847,11 @@ footer{
 
 @media screen and (max-width: 900px) and (orientation: landscape){
         /*SMARTPHONES DEITADOS*/
+
+        /*ICONES*/
+        #instagram_sec{
+            height: 20vh;
+        }
     
         /*cabeçalho*/
     
@@ -1960,6 +1962,7 @@ footer{
             height: 200vh;
             height: 100%;
             
+            
         }
     
         .container-products {
@@ -1968,6 +1971,11 @@ footer{
             gap: 2%;
             
             
+        }
+
+        .container-products{
+            
+            height: 140vh;
         }
     
         .card-product {
@@ -2042,10 +2050,8 @@ footer{
         /*seçao dos contatos*/
     
      #contacts-sec {
-        height: 100%;
-        width: 100%;
-        
-        
+        display: none;
+
      }
     
      .contact-container {
@@ -2072,10 +2078,7 @@ footer{
      
      }
 
-     .card-content:nth-child(2) h1{
-        padding-left: 20%;
-     
-     }
+    
     
      .card-content form {
         width: 100%;
@@ -2089,7 +2092,13 @@ footer{
         
             
      }
-    
+
+     .tittle-box{
+        
+        text-align: center;
+        width: 100%;
+        
+     }
         /*seçao sobre mim*/
     
         #about-me {
@@ -2232,6 +2241,94 @@ footer{
     
     
     }
+
+    @media screen and (max-width: 1024px) and (orientation: landscape){
+        /**TABLETS DEITADOS**/
+
+        /**SERVIÇOS**/
+        
+        #products {
+           
+
+        }
+
+        .container-products{
+          
+        }
+
+        .card-product h1{
+            
+            width: 100%;
+
+        }
+
+        .card-product button {
+            width: 90%;
+        }
+
+        .card-product{
+            
+            width: 40%;
+            padding-left: 0%;
+            padding-right: 0%;
+            
+        }
+        
+        /**CONTATO**/
+
+        .tittle-box{
+          
+            width: 100%;
+            text-align: center;
+            padding-left: 0%;
+            padding-right: 0%;
+        }
+
+        /**SOBRE MIM**/
+
+        #about-me{
+            background-image: none;
+            
+            
+        }
+
+        .container-about{
+            margin-left: 3%;
+            align-items: center;
+        }
+
+        .content-about{
+           
+            margin-left: 5%;
+            
+        }
+
+        .content-about img{
+            height: 80%;
+            width: 114%;
+            
+        }
+
+        .content-about:nth-child(2){
+            
+            margin-bottom: 15%;
+            
+        }
+
+        /**MAPA**/
+
+        iframe {
+
+            width: 80%;
+            
+        }
+
+
+
+
+    }
+        
+    
 
 
 
