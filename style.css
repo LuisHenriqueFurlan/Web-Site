@@ -165,8 +165,7 @@ html {
 /*seçao produtos*/
 
 #products {
-  background: url(assets/gradiente2.jpe);
-  height: 90vh;
+  height: 60vh;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -180,16 +179,14 @@ html {
 
 .container-products {
   display: flex;
-
   height: 100%;
   justify-content: center;
   gap: 40px;
   align-items: center;
-  padding-bottom: 20px;
-  padding-top: 20px;
 }
 
 .card-product {
+  margin-bottom: 100px;
   border-radius: 20px;
   width: 400px;
   text-align: center;
@@ -228,9 +225,8 @@ html {
 /*contatos*/
 
 #contacts-sec {
-  height: 80vh;
+  height: 60vh;
   width: 100%;
-  background: url(assets/fundo-02.jpe);
   background-size: cover;
   background-position: center;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
@@ -330,7 +326,7 @@ html {
 /*ESPECIALIDADES*/
 
 #section-3 {
-  height: 80vh;
+  height: 60vh;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
@@ -389,11 +385,11 @@ html {
 /*sobre mim*/
 
 #about-me {
-  height: 70vh;
-  background: url(assets/gradiente2.jpe);
+  height: 50vh;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    
 }
 
 .container-about {
@@ -402,7 +398,7 @@ html {
   display: flex;
   gap: 50px;
   justify-content: center;
-  padding-left: 100px;
+  padding-left: 100px; 
 }
 
 .content-about {
@@ -412,19 +408,22 @@ html {
   border-radius: 30px;
 }
 
+.content-about:nth-child(2){
+  width: 30%;
+}
+
 .container-about h3 {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
   padding-top: 30px;
 }
 
 .container-about h1 {
-  padding-top: 100px;
+
 }
 
 .container-about img {
   height: 500px;
-
   width: 100%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -435,14 +434,13 @@ html {
 /*seçao 4 - localizaçao*/
 
 #sec-4 {
-  height: 100vh;
+  height: 70vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   justify-items: center;
   gap: 5em;
-  background: url(assets/fundo-02.jpe);
   background-position: center;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
@@ -480,8 +478,7 @@ iframe {
 
 /*MISSAO VALORES E VISAO*/
 #Sec-missao {
-  height: 50vh;
-  background: url(assets/);
+  height: 40vh;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -519,46 +516,75 @@ iframe {
 }
 
 /*seçao do footer do site*/
-
-footer {
-  background-color: black;
-  height: 30vh;
+/* Footer geral */
+#footer-sec {
+  background-color: #000000;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
-/*container do footer*/
-
-.div-container {
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
+/* Container principal em coluna */
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
-  width: 100%;
-  height: 100%;
-  gap: 500px;
-}
-
-/*cor do texto do footer*/
-
-.footer-content {
-  border-radius: 20px;
-  width: 200px;
-  height: 200px;
-  text-align: center;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  justify-items: center;
+  gap: 20px;
+  text-align: center;
 }
 
-.footer-content img {
-  height: 200px;
-  width: 200px;
-  border-radius: 20px;
+/* Logo */
+.footer-logo {
+  width: 120px;
+  height: auto;
 }
 
-.footer-content p {
-  color: white;
-  margin-top: 40px;
+/* Navegação */
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
+
+.footer-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #facc15;
+}
+
+/* Informações */
+.footer-info {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.footer-info a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-info p {
+  color: aliceblue;
+}
+
+.footer-info a:hover {
+  color: #facc15;
+}
+
+
+
+
+
+
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
   /*resoluçao notebooks*/
@@ -755,53 +781,57 @@ footer {
 
   /*seçao sobre mim*/
 
-  #about-me {
-    height: 45rem;
+   #about-me {
+    height: 100%;
     width: 100%;
-    background-image: none;
   }
 
   .container-about {
-    flex-direction: row;
+    flex-direction: column-reverse;
     text-align: center;
     border-radius: 20px;
     height: 100%;
     width: 100%;
-    padding-right: 20%;
-    padding-left: 10%;
+    padding: 0%;
+    gap: 0%;
   }
 
   .content-about {
-    margin-top: 10%;
-    text-align: center;
-    height: 80%;
-    width: 100%;
-    padding-right: 5%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 120%;
     border-radius: 20px;
   }
 
-  .content-about:nth-of-type(2) {
+  .content-about:nth-of-type(2){
+    width: 100%;
+    height: 50%;
+    
   }
+
+  .content-about:nth-of-type(1) {
+    padding-bottom: 30px;
+    width: 100%;
+    height: 80%;
+  }
+
+  
 
   .content-about img {
     height: 100%;
-    width: 110%;
-  }
-
-  .content-about h3 {
-    font-size: 20px;
-    text-align: left;
+    width: 30%;
   }
 
   .content-about h1 {
     justify-content: center;
     text-align: center;
-    padding-top: 3rem;
     justify-items: center;
     padding-top: 10px;
     margin-top: 10px;
-    font-size: 25px;
   }
+
+
 
   /*SEÇAO LOCALIZAÇAO*/
 
@@ -1080,68 +1110,55 @@ footer {
   /*seçao sobre mim*/
 
   #about-me {
-    height: 45rem;
+    height: 100%;
     width: 100%;
   }
 
   .container-about {
-    flex-direction: row;
+    flex-direction: column-reverse;
     text-align: center;
     border-radius: 20px;
     height: 100%;
     width: 100%;
-    padding-right: 7%;
-    padding-left: 10%;
+    padding: 0%;
+    gap: 0%;
   }
 
   .content-about {
-    margin-top: 10%;
-    text-align: center;
-    height: 80%;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 120%;
+    border-radius: 20px;
   }
 
-  .content-about:nth-of-type(2) {
+  .content-about:nth-of-type(2){
     width: 100%;
-    height: 80%;
+    height: 50%;
+    
   }
 
   .content-about:nth-of-type(1) {
-    width: 80%;
-    height: 50%;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 80%;
   }
+
+  
 
   .content-about img {
     height: 100%;
-    width: 100%;
-  }
-
-  .content-about h1 {
-    font-size: 15px;
-
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-  }
-
-  .content-about h3 {
-    font-size: 15px;
-
-    border-radius: 20px;
-    text-align: center;
-    align-items: center;
+    width: 40%;
   }
 
   .content-about h1 {
     justify-content: center;
     text-align: center;
-    padding-top: 3rem;
     justify-items: center;
     padding-top: 10px;
     margin-top: 10px;
-    font-size: 25px;
   }
+
 
   /*SEÇAO LOCALIZAÇAO*/
 
@@ -1296,17 +1313,20 @@ footer {
   /*seçao produtos*/
 
   #products {
-    height: 200vh;
+    height: 170vh;
     height: 100%;
   }
 
   .container-products {
     flex-direction: column;
     text-align: center;
+    gap: 0%;
   }
 
   .card-product {
-    width: 90%;
+    margin-bottom: 10%;
+    padding-top: 20%;
+    width: 80%;
     text-align: center;
   }
 
@@ -1317,7 +1337,7 @@ footer {
   /*seçao especialidades*/
 
   #section-3 {
-    height: 110rem;
+    height: 200vh;
     width: 100%;
   }
 
@@ -1327,13 +1347,18 @@ footer {
     text-align: center;
   }
 
+  .cards-3 {
+    padding-top: 15%;
+    height: 25%;
+  }
+
   .cards-3 i {
     justify-content: center;
     justify-items: center;
     align-items: center;
     text-align: center;
     font-size: 3.5rem;
-    padding-top: 7px;
+    padding-top: 0%;
     width: 100%;
     height: 100%;
   }
@@ -1343,14 +1368,18 @@ footer {
     text-align: center;
   }
 
+  .theme{
+    width: 100%; 
+  }
+
   .container-cards {
     flex-direction: column;
     gap: 3%;
     padding-left: 10%;
     align-items: center;
     width: 100%;
+    height: 100%;
     padding-right: 10%;
-    padding-bottom: 30%;
   }
 
   /*seçao da homme page*/
@@ -1418,8 +1447,8 @@ footer {
     border-radius: 20px;
     height: 100%;
     width: 100%;
-    padding-right: 20%;
-    padding-left: 10%;
+    padding: 0%;
+    gap: 0%;
   }
 
   .content-about {
@@ -1427,27 +1456,37 @@ footer {
     align-items: center;
     justify-items: center;
     width: 120%;
-    padding-right: 5%;
     border-radius: 20px;
+  }
+
+  .content-about:nth-of-type(2){
+    width: 100%;
+    height: 50%;
+    
   }
 
   .content-about:nth-of-type(1) {
     padding-bottom: 30px;
+    width: 100%;
+    height: 80%;
   }
 
+  
+
   .content-about img {
-    height: 100%;
-    width: 100%;
+    height: 70%;
+    width: 80%;
   }
 
   .content-about h1 {
     justify-content: center;
     text-align: center;
-    padding-top: 3rem;
     justify-items: center;
     padding-top: 10px;
     margin-top: 10px;
   }
+
+
 
   /*SEÇAO LOCALIZAÇAO*/
 
@@ -1482,7 +1521,6 @@ footer {
 
   .div-container {
     height: 100%;
-    background-color: greenyello;
     gap: 0%;
     justify-content: space-between;
     width: 100%;
@@ -1675,37 +1713,53 @@ footer {
   /*seçao sobre mim*/
 
   #about-me {
-    height: 100vh;
+    height: 100%;
     width: 100%;
   }
 
   .container-about {
-    height: 100vh;
-    padding-left: 16%;
+    flex-direction: column-reverse;
+    text-align: center;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    gap: 0%;
   }
 
   .content-about {
-    height: 80%;
-    margin-top: 10%;
-    margin-right: 0%;
-    margin-left: 0%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 120%;
+    border-radius: 20px;
+  }
+
+  .content-about:nth-of-type(2){
+    width: 100%;
+    height: 50%;
+    
   }
 
   .content-about:nth-of-type(1) {
-    display: none;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 80%;
+  }
+
+  
+
+  .content-about img {
+    height: 70%;
+    width: 80%;
   }
 
   .content-about h1 {
     justify-content: center;
     text-align: center;
-    padding-top: 3rem;
     justify-items: center;
     padding-top: 10px;
     margin-top: 10px;
-  }
-
-  .content-about h3 {
-    font-size: 16 px;
   }
 
   /*SEÇAO LOCALIZAÇAO*/
@@ -1830,30 +1884,57 @@ footer {
 
   /**SOBRE MIM**/
 
-  #about-me {
-    background-image: none;
+   #about-me {
     height: 100%;
+    width: 100%;
   }
 
   .container-about {
-    align-items: center;
-    justify-content: center;
+    flex-direction: column-reverse;
     text-align: center;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    gap: 0%;
   }
 
   .content-about {
-    margin-left: 5%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 120%;
+    border-radius: 20px;
   }
+
+  .content-about:nth-of-type(2){
+    width: 100%;
+    height: 50%;
+    
+  }
+
+  .content-about:nth-of-type(1) {
+    padding-bottom: 30px;
+    width: 100%;
+    height: 80%;
+  }
+
+  
 
   .content-about img {
-    height: 10%;
-    width: 80%;
+    height: 50%;
+    width: 30%;
   }
 
-  .content-about:nth-child(2) {
-    margin-bottom: 15%;
-    margin-right: 20%;
+  .content-about h1 {
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    padding-top: 10px;
+    margin-top: 10px;
   }
+
+
 
   /**MAPA**/
 
