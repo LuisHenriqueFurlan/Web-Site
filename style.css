@@ -1891,7 +1891,7 @@ iframe {
   /**ESPECIALIDADES**/
 
   #section-3 {
-    height: 90vh;
+    height: 100vh;
   }
 
   .container-cards {
@@ -1905,6 +1905,11 @@ iframe {
     height: 80%;
     width: 20%;
   }
+
+  .cards-3 p {
+    height: 53%;
+  }
+
 
   /**SOBRE MIM**/
 
