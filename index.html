@@ -22,6 +22,10 @@
 
   <body>
     <header class="header">
+      <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+
       <a href="#" class="logo"> Jordana Gomes.</a>
 
       <nav class="navbar">
@@ -31,6 +35,16 @@
         <a href="#products">Serviços</a>
       </nav>
     </header>
+    <nav class="mobile-menu" id="mobile-menu">
+      <div class="close-btn" id="close-btn">
+        <i class="fas fa-times"></i>
+      </div>
+
+      <a href="#home">Início</a>
+      <a href="#about-me">Sobre</a>
+      <a href="#products">Serviços</a>
+      <a href="#sec-4">Mapas</a>
+    </nav>
 
     <section id="home" class="home">
       <div class="home-container">
@@ -73,7 +87,7 @@
         <div class="card-product">
           <h1>Consulta</h1>
           <a href="https://wa.me/5565992135437" target="_blank">
-            <button>WhatsApp</button>
+            <button class="btn-whatsapp">WhatsApp</button>
           </a>
           <h3>oque esta incluso?</h3>
 
@@ -86,7 +100,7 @@
         <div class="card-product">
           <h1 class="tlt">Consulta + Retorno</h1>
           <a href="https://wa.me/5565992135437" target="_blank">
-            <button>WhatsApp</button>
+            <button class="btn-whatsapp">WhatsApp</button>
           </a>
           <h3>oque esta incluso?</h3>
 
@@ -183,9 +197,10 @@
             resultados de forma saudável e eficiente!
           </p>
 
-         <div class="div-bttn">
-          <a href="https://wa.me/5565992135437" target="_blank">
-            <button>Saiba mais</button> </a>
+          <div class="div-bttn">
+            <a href="https://wa.me/5565992135437" target="_blank">
+              <button>Saiba mais</button>
+            </a>
           </div>
         </div>
         <div class="cards-3">
@@ -200,8 +215,9 @@
             Emagreça de forma equilibrada, com saúde e resultados duradouros!
           </p>
           <div class="div-bttn">
-          <a href="https://wa.me/5565992135437" target="_blank">
-            <button>Saiba mais</button> </a>
+            <a href="https://wa.me/5565992135437" target="_blank">
+              <button>Saiba mais</button>
+            </a>
           </div>
         </div>
         <div class="cards-3">
@@ -216,8 +232,9 @@
             começa com escolhas conscientes todos os dias!
           </p>
           <div class="div-bttn">
-          <a href="https://wa.me/5565992135437" target="_blank">
-            <button>Saiba mais</button></a>
+            <a href="https://wa.me/5565992135437" target="_blank">
+              <button>Saiba mais</button></a
+            >
           </div>
         </div>
       </div>
@@ -283,34 +300,47 @@
         </div>
       </div>
     </section>
- <section id="footer-sec">
-  <footer class="footer">
-    <div class="footer-container">
+    <section id="footer-sec">
+      <footer class="footer">
+        <div class="footer-container">
+          <img
+            src="assets/logo-jordana.jpeg"
+            alt="Logo Jordana Gomes"
+            class="footer-logo"
+          />
 
+          <nav class="footer-nav">
+            <a href="#home">Início</a>
+            <a href="#about-me">Sobre</a>
+            <a href="#products">Serviços</a>
+            <a href="#Sec-missao">Missao</a>
+            <a
+              href="https://www.google.com/maps/place/15%C2%B033'27.3%22S+56%C2%B003'04.4%22W/@-15.5575833,-56.0537971,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-15.5575833!4d-56.0512222?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Mapa</a
+            >
+          </nav>
+
+          <div class="footer-info">
+            <p>📞 <a href="tel:+5565992135437">+55 (65) 99213-5437</a></p>
+            <p>🕒 Atendimento: Segunda a Sexta - 08:00 às 18:00</p>
+            <p>&copy; 2025 Jordana Gomes. Todos os direitos reservados.</p>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <a
+      href="https://wa.me/5565992135437"
+      target="_blank"
+      class="whatsapp-float"
+      aria-label="WhatsApp"
+    >
       <img
-        src="assets/logo-jordana.jpeg"
-        alt="Logo Jordana Gomes"
-        class="footer-logo"
+        src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+        alt="WhatsApp"
       />
-
-      <nav class="footer-nav">
-        <a href="#home">Início</a>
-        <a href="#about-me">Sobre</a>
-        <a href="#products">Serviços</a>
-        <a href="#Sec-missao">Missao</a>
-        <a href="https://www.google.com/maps/place/15%C2%B033'27.3%22S+56%C2%B003'04.4%22W/@-15.5575833,-56.0537971,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-15.5575833!4d-56.0512222?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Mapa</a>
-      </nav>
-
-      <div class="footer-info">
-        <p>📞 <a href="tel:+5565992135437">+55 (65) 99213-5437</a></p>
-        <p>🕒 Atendimento: Segunda a Sexta - 08:00 às 18:00</p>
-        <p>&copy; 2025 Jordana Gomes. Todos os direitos reservados.</p>
-      </div>
-
-    </div>
-  </footer>
-</section>
-
+    </a>
 
     <script src="script.js"></script>
   </body>
