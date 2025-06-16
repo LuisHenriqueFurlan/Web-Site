@@ -165,7 +165,7 @@ html {
 /*seçao produtos*/
 
 #products {
-  height: 60vh;
+  height: 80vh;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -225,7 +225,7 @@ html {
 /*contatos*/
 
 #contacts-sec {
-  height: 60vh;
+  height: 80vh;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -326,10 +326,26 @@ html {
 /*ESPECIALIDADES*/
 
 #section-3 {
-  height: 60vh;
+  height: 80vh;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
+
+.div-bttn{
+  width: 100%;
+  height: 10%;
+}
+
+.div-bttn button{
+  border-radius: 20px;
+  height: 100%;
+  width: 80%;
+  background-color: transparent;
+  font-size: 20px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
 
 .theme {
   text-align: center;
@@ -339,11 +355,14 @@ html {
   font-weight: 800;
 }
 
+
+
 .container-cards {
   height: 100%;
   display: flex;
+  text-align: center;
   justify-content: center;
-  gap: 200px;
+  gap: 20px;
   width: 100%;
   padding-bottom: 5%;
   padding-top: 20px;
@@ -357,7 +376,8 @@ html {
 
 .cards-3 i {
   font-size: 3.5rem;
-  padding-top: 7px;
+  padding-top: 30%;
+  text-align: center;
 }
 
 .cards-3 {
@@ -376,6 +396,7 @@ html {
 }
 
 .cards-3 p {
+  height: 40%;
   padding-top: 20px;
   text-align: center;
   padding-left: 10px;
@@ -385,7 +406,7 @@ html {
 /*sobre mim*/
 
 #about-me {
-  height: 50vh;
+  height: 70vh;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -434,7 +455,7 @@ html {
 /*seçao 4 - localizaçao*/
 
 #sec-4 {
-  height: 70vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -478,7 +499,7 @@ iframe {
 
 /*MISSAO VALORES E VISAO*/
 #Sec-missao {
-  height: 40vh;
+  height: 50vh;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -1337,7 +1358,7 @@ iframe {
   /*seçao especialidades*/
 
   #section-3 {
-    height: 200vh;
+    height: 230vh;
     width: 100%;
   }
 
@@ -1349,7 +1370,7 @@ iframe {
 
   .cards-3 {
     padding-top: 15%;
-    height: 25%;
+    height: 50%;
   }
 
   .cards-3 i {
@@ -1378,7 +1399,7 @@ iframe {
     padding-left: 10%;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 93%;
     padding-right: 10%;
   }
 
@@ -1493,6 +1514,7 @@ iframe {
   iframe {
     width: 20rem;
     height: 20rem;
+   
   }
 
   #sec-4 {
@@ -1503,6 +1525,7 @@ iframe {
     flex-direction: column;
     height: 50rem;
     padding-top: 20px;
+    margin-bottom: 30px;
   }
 
   .div-map {
@@ -1511,6 +1534,7 @@ iframe {
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 30px;
+    
   }
 
   /*FOOTER*/
